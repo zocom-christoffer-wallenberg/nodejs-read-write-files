@@ -9,10 +9,10 @@ before:
     title: Välkommen!
     body: start-0.md
 steps:
-  - title: First step
-    description: The first step in your course
+  - title: Introduktion
+    description: Introduktion till vad denna kurs går igenom
     event: issues.closed
-    link: '{{ repoUrl }}'
+    link: '{{ repoUrl }}/issues/1'
     actions:
       - type: respond
         with: complete-0.md
@@ -20,3 +20,15 @@ steps:
       - type: createIssue
         title: Installera Node och sätta upp vår miljö
         body: install-node-1.md
+
+  - title: Installera Node.js och NPM
+    description: I detta steg installerar du Node.js och NPM och kör ditt första program
+    event: issues.closed
+    link: "{{ repoUrl }}/issues/2"
+    actions:
+      - type: createIssue
+        title: Skapa en package.json
+        body: create-package-json-2.md
+      - type: respond
+        with: completed-2.md
+        issue: 2
