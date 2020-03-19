@@ -3,9 +3,10 @@ description: 'I denna kursen kommer du få lära dig:'
 template:
   repo: nodejs-read-write-files-template
   name: nodejs-read-write-files
+  description: I detta repo kommer du att jobba och pusha filer till.
 before:
   - type: createIssue
-    title: Welcome!
+    title: Välkommen!
     body: new-issue.md
 steps:
   - title: First step
