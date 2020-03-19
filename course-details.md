@@ -1,9 +1,6 @@
-This is the description we show on the course page [here](https://lab.github.com/zocom-christoffer-wallenberg/nodejs-read-write-files). This first paragraph will be featured at the top of the page so make it great.
-​
+Välkommen! I denna kurs kommer du få:
 
-​
-Be sure to tell the learner about the technology you are teaching, why they should learn it, how they can use it, and what you will teach them.
-​
-
-
-Include information on how they can reach you for questions about the content or course. 
+* Installera Node och NPM (som är Nodes pakethanterare)
+* Skapa en package.json (som är ett projektes settingsfil).
+* Läsa från en textfil på datorn.
+* Skriva till en textfil på datorn.
