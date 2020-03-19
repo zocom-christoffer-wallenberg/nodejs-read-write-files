@@ -15,7 +15,7 @@ steps:
     link: '{{ repoUrl }}/issues/1'
     actions:
       - type: respond
-        with: complete-0.md
+        with: completed-0.md
         issue: 1
       - type: createIssue
         title: Installera Node och sätta upp vår miljö
