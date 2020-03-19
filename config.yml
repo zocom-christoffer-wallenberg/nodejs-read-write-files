@@ -30,5 +30,44 @@ steps:
         title: Skapa en package.json
         body: create-package-json-2.md
       - type: respond
-        with: completed-2.md
+        with: completed-1.md
         issue: 2
+
+  - title: Skapa en package.json
+    description: I detta steg skapar vi en package.json fil
+    event: push
+    link: "{{ repoUrl }}/issues/3"
+    actions:
+      - type: createIssue
+        title: Läsa filer
+        body: fs-read-files-3.md
+      - type: respond
+        with: completed-2.md
+        issue: 3
+      - type: closeIssue
+        issue: 3
+  
+  - title: Läsa filer
+    description: I detta steg läser vi en fil med hjälp av modulen fs
+    event: push
+    link: "{{ repoUrl }}/issues/4"
+    actions:
+      - type: createIssue
+        title: Skriv till en fil
+        body: fs-write-files-4.md
+      - type: respond
+        with: completed-3.md
+        issue: 4
+      - type: closeIssue
+        issue: 4
+
+  - title: Skriva till en fil
+    description: I detta steg skriv vi till en fil med hjälp av modulen fs
+    event: push
+    link: "{{ repoUrl }}/issues/5"
+    actions:
+      - type: respond
+        with: completed-4.md
+        issue: 5
+      - type: closeIssue
+        issue: 5
