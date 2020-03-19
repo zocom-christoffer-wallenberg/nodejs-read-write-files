@@ -2,7 +2,7 @@ title: nodejs-read-write-files
 description: 'Kom igång med Node.js'
 template:
   repo: nodejs-read-write-files-template
-  name: nodejs-read-write-files
+  name: nodejs-read-write-files-boilerplate
   description: I detta repo kommer du att jobba och pusha filer till.
 before:
   - type: createIssue
