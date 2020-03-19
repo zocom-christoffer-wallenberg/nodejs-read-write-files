@@ -27,4 +27,4 @@ Tips! I VS Code kan du öppna ett terminal direkt i ditt repo och köra ditt nod
 
 I terminalen bör du nu se texten **Hello World!**.
 
-I Github desktop lägg till filen , skapa en commit och till sist pusha till Github för att gå vidare.
+När du är klar tryck på knappen **Close issue** för att fortsätta!
