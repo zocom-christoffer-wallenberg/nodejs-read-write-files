@@ -7,11 +7,16 @@ template:
 before:
   - type: createIssue
     title: Välkommen!
-    body: new-issue.md
+    body: start-0.md
 steps:
   - title: First step
     description: The first step in your course
-    event: issues.assigned
+    event: issues.closed
     link: '{{ repoUrl }}'
     actions:
-      - type: closeIssue
+      - type: respond
+        with: complete-0.md
+        issue: 1
+      - type: createIssue
+        title: Installera Node och sätta upp vår miljö
+        body: install-node-1.md
