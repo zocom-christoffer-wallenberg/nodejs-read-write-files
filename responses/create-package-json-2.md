@@ -9,7 +9,7 @@ Tips! Glöm inte bort att samtidigt kolla i presentationen på Learnpoint för h
 
 I terminalen skriv:
 
-```npm init````
+```npm init```
 
 Då kommer att få lite frågor att svara på och efter det kommer en package.json att skapas. Du borde efter det se en package.json fil i ditt repo.
 
@@ -19,4 +19,4 @@ För att installera en **dependecy** i din package.json skriver du:
 
 ```--save``` betyder att din installerade **dependecy** kommer att sparas i din package.json. 
 
-I Github desktop lägg till din skapade package.json och commita den och sedan pusha till Github. När du har gjort det kommer nästa steg att visas.
+I Github desktop lägg till din skapade package.json och commita den, sedan pusha till Github. När du har gjort det kommer nästa steg att visas.
